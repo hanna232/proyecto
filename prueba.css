@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	} 
+  
+   header{
+	   position: relative;
+	   margin: auto;
+	   width: 1000px;
+	   height: 120px;
+	   
+	   }
+
+    #chat{
+		position: fixed;
+		width: 180px;
+		height: 40px;
+		bottom: 0px;
+		right: 20px;
+		background: #FFB100;
+		z-index: 1;
+		color: black;
+		text-align: center;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		border-radius: 20px 20px 00;
+		cursor: pointer;
+		
+		}
+
+    #logo{
+		position: absolute;
+		top: 30px;
+		left: 30px;
+		width: 200px;
+		height: 60px;
+		font-size: 48px;
+		text-align: center;
+		line-height: 80px;
+		
+	}
+  .redes{
+	  position: relative;
+	  width: 42px;
+	  height: 42px;
+	  border-radius: 100px;
+	  
+	  }
+
+   #icono1{
+	   top: 42px;
+	   float: right;
+	   margin-right: 20px;
+	   margin-left: 10px;
+	   text-align: center;
+	   background-size: contain;
+	   background-repeat: no-repeat; 
+	   background-image: url("img/facebook_icon-icons.com_59205.png");
+	   
+	   }
+
+   #icono2{
+	   top: 42px;
+	   float: right;
+	   margin-right: 20px;
+	   margin-left: 10px;
+	   text-align: center;
+	   background-size: contain; 
+	   background-repeat: no-repeat;
+	   background-image: url("img/Instagram-Logo-2016.jpg");
+	   
+	   
+	   }
+
+    #icono3{
+		top: 42px;
+		float: right;
+		margin-right: 20px;
+	    margin-left: 10px;
+		text-align: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-image: url("img/4d8d2d67c5ba156b52c730c1d502c7ee.jpg");
+		
+		}
+
+        nav{
+			position: relative;
+			margin: 20px auto;
+			width: 1000px;
+			height: 48px;
+			
+			}
+
+      .botones{ 
+		  float: left; 
+		  width: 196px;
+		  margin: 2px;
+		  height: 48px;
+		  background: rgba(255,120,0,1.00);
+		  font-family: baby_fly;
+		  color: white;
+		  text-align: center;
+		  line-height: 48px;
+}
+
+a .botones:hover{
+	background: #5A0432;
+}
+
+a .botones:active{
+	background: #5A0432;
+}
+   
+      a.botones:hover{
+	  background: rgba(191,146,28,1.00);
+		 }
+
+     a.botones:active{
+	 background: rgba(255,179,117,1.00);
+		 
+		 }
+
+     #top{
+		 position: relative;
+		 margin: 10px auto;
+		 width: 1000px;
+		 height: 192px;
+		 text-align: center;
+		 
+		 }
+      #top ul{
+		  float: left;
+		  width: 1010px;
+		  height: 192px;
+		  
+		  
+		  }
+        #top ul li{
+			float: left;
+			width: 326px;
+			height: 192px;
+			background: rgba(255,221,171,1.00);
+			margin-right: 10px;
+			text-align: center;
+			}
+       
+        #top ul li video{
+			border-radius: 10px;
+			height: 100px;
+			}
+		 
+		 section{
+			 position: relative;
+			 margin: 20px auto;
+			 width: 1000px;
+			 height: 453px;
+			 
+			}
+
+        aside#izq{
+		 position: absolute;
+		 left: 0;
+		 top: 0;
+		 width: 200px;
+		 height: 453px;
+          }
+        
+        aside#izq ul li{
+			background: #aaa;
+			padding: 10px;
+			margin: 2px;
+			list-style: square;
+			outline-style-position: inside;
+			background: rgba(255,186,61,1.00);
+				}
+      
+
+          article{
+            position: absolute;
+			left: 200px;
+			top: 8;
+			width: 600px;
+			height: 453px;
+			margin: 20px;
+			  
+			  }
+           
+          article h1{
+			  font-family: Gotham, "Helvetica Neue", "sans-serif";
+			  font-size: 30px;
+			  margin-right: 20PX;
+     
+          }
+
+           article p{
+			float: 5px 30px;
+			margin-right: 14px;
+			   text-align: justify;
+			   
+			   }
+
+        article p img{
+			float: left;
+			margin-right: 20px;
+			
+			}
+
+        aside#der{ position: absolute;
+		right: 0;
+		 top: 9;
+		 width: 200px;
+		 height: 453px;
+	
+		 }
+        
+        aside#der input{
+			padding: 9px;
+			width: 181px;
+			margin: 5px 0px;
+			
+			}
+
+          aside#der input[type="text"]{
+			  background: url("img/User_Group-80_icon-icons.com_57247.png");
+			  background-repeat: no-repeat;
+			  background-position: right;
+			  background-size: contain;
+			  background-color: antiquewhite;
+			  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+			  
+			  
+			  }
+
+         aside#der input[type="password"]{
+			 background: url("img/password_userpassword_9564.png");
+			 background-repeat: no-repeat;
+			 background-position: right;
+			 background-size: contain;
+			 background-color: antiquewhite;
+			 font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+			 
+			 }
+
+        aside#der input[type="email"]{
+		background: url("img/XFMail_mail_contacts_5985.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: contain;
+		background-color: antiquewhite;
+		font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+			 
+			 }
+
+         footer{
+		  position: center;
+		  margin: 20px auto;
+		  width: 1000px;
+		  height: 70px;
+		  background: rgba(255,165,93,1.00)
+			 
+		  
+		  }
